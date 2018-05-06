@@ -1,0 +1,39 @@
+Next categories were processed: "mobile phones", "tablets", "laptops", "TVsets", "motherboards", "video cards", "processors", "SSD", "cameras", "videocameras"
+
+3580 comments collected
+
+5 stars: 2135
+4 stars: 815
+2 stars: 200
+3 stars: 240
+1 stars: 190
+
+The dataset was split into train and test. 57 reviews were taken from each category (30% of the smallest)
+
+Train: 
+5 : 2078
+4 : 758
+2 : 143
+3 : 183
+1 : 133
+
+Test:
+5 : 57
+4 : 57
+2 : 57
+3 : 57
+1 : 57
+
+Results:
+Naive Bayes Precision: 57.54%
+Linear SVC Precision: 40.5%
+
+Lemmatization improves results:
+Naive Bayes Precision: 72.28%
+Linear SVC Precision: 47.93%
+
+Tone dictionary gives 24.35% lower precision.
+
+POS taken into account: 'ADJF', 'ADJS', 'COMP', 'VERB', 'INFN', 'PRTF', 'PRTS', 'GRND', 'ADVB'
+
+Possible ways to improve the algorithm: use stop words and remove words with rare occurrence.

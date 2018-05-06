@@ -1,0 +1,1 @@
+This program extracts movie titles from Wikipedia and compares them with IMDB database.

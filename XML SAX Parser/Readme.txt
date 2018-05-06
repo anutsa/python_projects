@@ -1,0 +1,1 @@
+This program extracts synonym relations for Serbian language from Wiktionary dump using XML SAX parser.

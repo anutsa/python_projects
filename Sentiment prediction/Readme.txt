@@ -1,0 +1,1 @@
+This program predicts review rating based on sentiment extraction from review text published on https://rozetka.com.ua/
